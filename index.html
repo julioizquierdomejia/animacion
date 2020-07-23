@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.1/gsap.min.js"></script>
+
+	<style>
+		body {
+			background: url(img/fondo.png) no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+			margin: 0;
+			padding: 0;
+		}
+		
+		.bolas{
+			height: 100%;
+			width: 100%;
+			position: absolute;			
+
+		}
+
+		img{
+			width: 100%;
+			height: 100%;
+
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="bolas" id="esquina1"><img src="img/esquina1.png" alt=""></div>
+	<div class="bolas" id="esquina2"><img src="img/esquina2.png" alt=""></div>
+	<div class="bolas" id="b1"><img src="img/bola1.png" alt=""></div>
+	<div class="bolas" id="b2"><img src="img/bola2.png" alt=""></div>
+	<div class="bolas" id="b3"><img src="img/bola3.png" alt=""></div>
+	<div class="bolas" id="b4"><img src="img/bola4.png" alt=""></div>
+	<div class="bolas" id="b5"><img src="img/bola5.png" alt=""></div>
+	<div class="bolas" id="b6"><img src="img/bola6.png" alt=""></div>
+	<div class="bolas" id="b7"><img src="img/bola7.png" alt=""></div>
+	<div class="bolas" id="b8"><img src="img/bola8.png" alt=""></div>
+	<div class="bolas" id="b9"><img src="img/bola9.png" alt=""></div>
+	<div class="bolas" id="b10"><img src="img/bola10.png" alt=""></div>
+	<div class="bolas" id="b11"><img src="img/bola11.png" alt=""></div>
+	<div class="bolas" id="b12"><img src="img/bola12.png" alt=""></div>
+
+	
+	
+	<script>
+		gsap.to("#b1", {x:-1200, y:-50, duration: 32, yoyo:true, repeat:-1});
+		gsap.to("#b5", {x:800, y:-150, duration: 32, yoyo:true, repeat:-1});
+		gsap.to("#b6", {x:1200, y:-150, duration: 32, yoyo:true, repeat:-1});
+		gsap.to("#b7", {x:600, y:-100, duration: 32, yoyo:true, repeat:-1});
+		gsap.to("#b8", {x:800, y:-100, duration: 32, yoyo:true, repeat:-1});
+		gsap.to("#b9", {x:800, y:-100, duration: 32, yoyo:true, repeat:-1});
+		gsap.to("#b10", {x:800, y:-100, duration: 32, yoyo:true, repeat:-1});
+		gsap.to("#b11", {x:1200, y:100, duration: 32, yoyo:true, repeat:-1});
+		gsap.to("#b12", {x:1400, y:200, duration: 32, yoyo:true, repeat:-1});
+
+	</script>
+
+</body>
+</html>
